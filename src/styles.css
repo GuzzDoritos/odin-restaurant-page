@@ -1,0 +1,36 @@
+body {
+    margin: auto;
+    padding-top: 100px;
+    width: 80%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 1.2rem;
+}
+
+.unselected:hover {
+    background: linear-gradient(gray, darkgray);
+}
+
+.unselected {
+    background-color: darkgray;
+}
+
+#content {
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    height: calc(100% - 52px - 52px);
+    width: 100%;
+    background-color: buttonface;
+}
