@@ -1,6 +1,6 @@
 import kirbyBurg from "./img/kirbyburg.png"
 
-export default function renderHome() {
+export function renderHome() {
     //Query the content div
     const contentDiv = document.querySelector("#content");
 
