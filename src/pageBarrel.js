@@ -1,1 +1,2 @@
-export { default } from "./pages/home.js"
+export { renderHome } from "./pages/home.js"
+export { renderMenu } from "./pages/menu.js"
