@@ -57,9 +57,11 @@ nav > button {
 
 h1 {
     font-family: "Sniglet", sans-serif;
-    color: #EF233C;
+    color: #ff8aa8;
+    padding: 10px 20px;
     font-size: 2.4rem;
     letter-spacing: 2px;
+    background-color: #EF233C;
 }
 
 #content > p {
@@ -72,8 +74,9 @@ h1 {
 .menu-grid {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-auto-rows: 400px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 20px;
 }
 
 .menu-grid > div {
@@ -81,4 +84,15 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #EDF2F4;
+}
+
+.menu-grid > div > * {
+    color: #2B2D42;
+    text-align: center;
+}
+
+.menu-grid > div > p {
+    height: 0px;
+    margin-bottom: 30px;
 }
