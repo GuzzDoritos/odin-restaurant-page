@@ -32,7 +32,8 @@ header {
 nav {
     min-width: 30%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 
 nav > button {
